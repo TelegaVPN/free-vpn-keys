@@ -1,0 +1,994 @@
+# Subscription by vpnkeys.me (https://vpnkeys.me/sub/clash/all)
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "✨ Для Gemini #01 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "✨ Для Gemini #02 • \U0001F1E9\U0001F1EA [DE] VLESS (284ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: ysNLHCtF6xCqE6NWEMJPtKz1Hb2MJa5ZC9aAWJK9zEE
+        short-id: ""
+      server: 201.58.183.170
+      servername: gembeforeostrov.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+    - client-fingerprint: firefox
+      name: "✨ Для Gemini #03 • \U0001F1EB\U0001F1EE [FI] VLESS (1149ms)"
+      network: xhttp
+      port: 8443
+      reality-opts:
+        public-key: PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI
+        short-id: 7b6803a79bba5c52
+      server: 13.143.166.114
+      servername: fi.peregrine-sub.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
+    - client-fingerprint: firefox
+      name: "✨ Для Gemini #04 • \U0001F1F3\U0001F1F1 [NL] VLESS (1509ms)"
+      network: xhttp
+      port: 443
+      reality-opts:
+        public-key: nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4
+        short-id: fb3a5f2d4ca346ed
+      server: sports.blog-forme.ru
+      servername: sports.blog-forme.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "▶️ Для YouTube #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+        short-id: b28db60d77c50b4f
+      server: 193.163.203.170
+      servername: yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+    - client-fingerprint: firefox
+      name: "▶️ Для YouTube #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+      network: tcp
+      port: 25895
+      reality-opts:
+        public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+        short-id: a73f0410d728c823
+      server: ee.h1cloud.net
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "▶️ Для YouTube #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: hub.v1.ApiService
+      name: "▶️ Для YouTube #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
+        short-id: 8e07337954f9823f
+      server: 89.35.14.33
+      servername: md4.univesalsrv.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F916 Для Claude & ChatGPT #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+        short-id: b28db60d77c50b4f
+      server: 193.163.203.170
+      servername: yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+    - client-fingerprint: firefox
+      name: "\U0001F916 Для Claude & ChatGPT #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+      network: tcp
+      port: 25895
+      reality-opts:
+        public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+        short-id: a73f0410d728c823
+      server: ee.h1cloud.net
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F916 Для Claude & ChatGPT #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: hub.v1.ApiService
+      name: "\U0001F916 Для Claude & ChatGPT #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
+        short-id: 8e07337954f9823f
+      server: 89.35.14.33
+      servername: md4.univesalsrv.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE #03 • VLESS Reality (284ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: ysNLHCtF6xCqE6NWEMJPtKz1Hb2MJa5ZC9aAWJK9zEE
+        short-id: ""
+      server: 201.58.183.170
+      servername: gembeforeostrov.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE #04 • VLESS Reality (1012ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw
+        short-id: f70764f8
+      server: 88.216.70.39
+      servername: tickets.betust.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 95d0e214-eab0-4701-93ed-fea4f1b56062
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EE FI #02 • VLESS Reality (795ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: awRDyczg5ZHMWh9udl31s4lF0F7s2EendNM--F6IC0c
+        short-id: ""
+      server: 9.247.112.61
+      servername: tradingview.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: eca1246a-358f-4ad5-be4c-849755ac6f14
+    - client-fingerprint: firefox
+      name: "\U0001F1EB\U0001F1EE FI #03 • VLESS Reality (1149ms)"
+      network: xhttp
+      port: 8443
+      reality-opts:
+        public-key: PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI
+        short-id: 7b6803a79bba5c52
+      server: 13.143.166.114
+      servername: fi.peregrine-sub.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3
+    - client-fingerprint: firefox
+      name: "\U0001F1EB\U0001F1EE FI #04 • VLESS Reality (2376ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TKmclms1Y4UZPdn_UJR2FMPLGRbMIw4mI7Vul2SevTw
+        short-id: 0521d8e5f34296ae
+      server: 87.228.92.104
+      servername: 81f270t.fi4.h1clayd.click
+      tls: true
+      type: vless
+      udp: true
+      uuid: 01a8c896-1abd-425d-bf75-b0b355754cc1
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F9 IT #01 • VLESS Reality (547ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+        short-id: b28db60d77c50b4f
+      server: 193.163.203.170
+      servername: yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+    - name: "\U0001F1F7\U0001F1FA RU #01 • VLESS TLS [Белый список] (3554ms)"
+      network: ws
+      port: 8443
+      server: 194.87.143.165
+      servername: wsru1.wba-pn.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: f9613819-d2fe-4b3a-a2e6-40c184c6854c
+      ws-opts:
+        headers:
+            Host: wsru1.wba-pn.ru
+        path: /
+    - flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU #02 • VLESS TLS [Белый список] (448ms)"
+      network: tcp
+      port: 8443
+      server: 185.147.27.164
+      servername: user-6a8d949a.noooo.win
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3a90bf69-1ffe-4ebb-b9a7-ad9ba8e9f66f
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU #03 • VLESS Reality [Белый список] (366ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI
+        short-id: ""
+      server: 147.45.148.6
+      servername: yoy-api.bachidze.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3bb97d46-789b-4229-88f6-9beb222a4137
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU #04 • VLESS Reality [Белый список] (238ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI
+        short-id: 16e0f049
+      server: 217.60.179.166
+      servername: de166.mech-pro.online
+      tls: true
+      type: vless
+      udp: true
+      uuid: 976f82d9-0e6b-40ed-9c09-cafd06c4bc98
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7 GB #01 • VLESS Reality (1405ms)"
+      network: tcp
+      port: 43000
+      reality-opts:
+        public-key: lmT0SFJL1A8_ariRWL65dhShaqFbpitjGanv7EFnoR0
+        short-id: 725e6ea0
+      server: 144.48.11.97
+      servername: 144.48.11.97
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4799abf0-d0d9-4a46-9c31-b1f76ae00e1e
+    - client-fingerprint: firefox
+      name: "\U0001F1EA\U0001F1EA EE #01 • VLESS Reality (411ms)"
+      network: tcp
+      port: 25895
+      reality-opts:
+        public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
+        short-id: a73f0410d728c823
+      server: ee.h1cloud.net
+      servername: www.samsung.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US #01 • VLESS Reality (119ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+        short-id: c39cc7310a
+      server: 169.40.42.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US #02 • VLESS Reality (235ms)"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: AXyqlgs8AhvDqUBIma2x_7wlWNPx814dS-6kFGQGWl8
+        short-id: 088ce7f4377e5972
+      server: 89.125.11.197
+      servername: de-room06.filesnap.tech
+      tls: true
+      type: vless
+      udp: true
+      uuid: b6ac1632-d2f2-4be8-a642-c84096a9ff7e
+    - name: "\U0001F1FA\U0001F1F8 US #04 • TROJAN TLS (309ms)"
+      network: tcp
+      password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      port: 443
+      server: 169.197.140.245
+      sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+      type: trojan
+      udp: true
+    - client-fingerprint: firefox
+      grpc-opts:
+        grpc-service-name: hub.v1.ApiService
+      name: "\U0001F1F2\U0001F1E9 MD #01 • VLESS Reality (427ms)"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg
+        short-id: 8e07337954f9823f
+      server: 89.35.14.33
+      servername: md4.univesalsrv.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL #01 • VLESS Reality (1091ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+        short-id: "00000000"
+      server: 78.159.250.214
+      servername: qq.utiltools.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL #02 • VLESS Reality (485ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 92lzqaBZnD5IP_subNDLotGMBs4u7STDMhqoBz1OADE
+        short-id: b7a5c406
+      server: 195.189.98.197
+      servername: api37.betust.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+    - client-fingerprint: firefox
+      name: "\U0001F1F3\U0001F1F1 NL #03 • VLESS Reality (1509ms)"
+      network: xhttp
+      port: 443
+      reality-opts:
+        public-key: nalACuCZjV1sZx7QOH6yAIDio8mFI0FgVKYQvQHBKS4
+        short-id: fb3a5f2d4ca346ed
+      server: sports.blog-forme.ru
+      servername: sports.blog-forme.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6da2c981-8c77-4340-bda3-93399b7aea26
+    - client-fingerprint: firefox
+      name: "\U0001F1F3\U0001F1F1 NL #04 • VLESS Reality (1099ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: CgqACaKewbXngnTfa1EhfhejPCuicXkbzl6naqYshWg
+        short-id: 8e8c7663b87ed905
+      server: 77.239.108.17
+      servername: redbullracing.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8fa83828-9777-4a5b-a951-60a4523f3e3d
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9 AT #01 • VLESS Reality (1062ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
+        short-id: b9120cd53ffd7bba
+      server: 147.45.245.177
+      servername: media-91.topp-con.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F1\U0001F1F9 LT #01 • VLESS Reality (938ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w
+        short-id: 3e137406
+      server: 93.115.24.135
+      servername: admin.betust.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4ce73e66-1337-466b-8308-2abb812f9682
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7 FR #01 • VLESS Reality (686ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: 163.245.42.120
+      servername: mother-earth.fyi
+      tls: true
+      type: vless
+      udp: true
+      uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1F7 FR #02 • VLESS Reality (807ms)"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: 1H1DiBCBB7fpALV71pH1q66ePybBFlVOcxftdlQimQ8
+        short-id: 385cb18df0892069
+      server: 138.124.58.206
+      servername: fr1.vpngold.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: a52fd54b-ba4d-4d11-8e00-301e2646cd66
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1F8 ES #01 • VLESS Reality (2559ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: qF1f5MNrOiov0tyPftS96_Osal5sWTL4keXlW32UtV8
+        short-id: f06b6d8a57f5fd8f
+      server: 83.171.241.199
+      servername: 898305t.es4.h1clayd.click
+      tls: true
+      type: vless
+      udp: true
+      uuid: fafc7c16-f890-45ee-a856-02df225172dd
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1F8 ES #02 • VLESS Reality (270ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 3O_L8f5d9jboj5k0fijL5tsT-i2S4QB5NYnOu-n2Nmw
+        short-id: b2f67ff6e4699ece
+      server: 179.255.189.51
+      servername: es.edge.rbullet.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8263aa5b-601d-4e05-b61d-a70e15d97869
+    - grpc-opts:
+        grpc-service-name: assets
+      name: "\U0001F1F5\U0001F1F1 PL #01 • VLESS TLS (428ms)"
+      network: grpc
+      port: 443
+      server: 147.45.126.220
+      servername: pol.qikbro.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 452a5bbc-d938-4904-99d3-7db2075d0f3e
+proxy-groups:
+    - name: PROXY
+      proxies:
+        - ⚡ АВТО-БАЛАНСИР (Все локации)
+        - ✨ Для Gemini
+        - ▶️ Для YouTube
+        - "\U0001F916 Для Claude & ChatGPT"
+        - "\U0001F30D ВЫБОР ЛОКАЦИИ"
+        - "\U0001F1E9\U0001F1EA DE • Авто-выбор"
+        - "\U0001F1EB\U0001F1EE FI • Авто-выбор"
+        - "\U0001F1EE\U0001F1F9 IT • Авто-выбор"
+        - "\U0001F1F7\U0001F1FA RU • Авто-выбор"
+        - "\U0001F1EC\U0001F1E7 GB • Авто-выбор"
+        - "\U0001F1EA\U0001F1EA EE • Авто-выбор"
+        - "\U0001F1FA\U0001F1F8 US • Авто-выбор"
+        - "\U0001F1F2\U0001F1E9 MD • Авто-выбор"
+        - "\U0001F1F3\U0001F1F1 NL • Авто-выбор"
+        - "\U0001F1E6\U0001F1F9 AT • Авто-выбор"
+        - "\U0001F1F1\U0001F1F9 LT • Авто-выбор"
+        - "\U0001F1EB\U0001F1F7 FR • Авто-выбор"
+        - "\U0001F1EA\U0001F1F8 ES • Авто-выбор"
+        - "\U0001F1F5\U0001F1F1 PL • Авто-выбор"
+        - FALLBACK
+        - "✨ Для Gemini #01 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "✨ Для Gemini #02 • \U0001F1E9\U0001F1EA [DE] VLESS (284ms)"
+        - "✨ Для Gemini #03 • \U0001F1EB\U0001F1EE [FI] VLESS (1149ms)"
+        - "✨ Для Gemini #04 • \U0001F1F3\U0001F1F1 [NL] VLESS (1509ms)"
+        - "▶️ Для YouTube #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "▶️ Для YouTube #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "▶️ Для YouTube #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "▶️ Для YouTube #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+        - "\U0001F916 Для Claude & ChatGPT #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "\U0001F916 Для Claude & ChatGPT #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "\U0001F916 Для Claude & ChatGPT #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "\U0001F916 Для Claude & ChatGPT #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+        - "\U0001F1E9\U0001F1EA DE #03 • VLESS Reality (284ms)"
+        - "\U0001F1E9\U0001F1EA DE #04 • VLESS Reality (1012ms)"
+        - "\U0001F1EB\U0001F1EE FI #02 • VLESS Reality (795ms)"
+        - "\U0001F1EB\U0001F1EE FI #03 • VLESS Reality (1149ms)"
+        - "\U0001F1EB\U0001F1EE FI #04 • VLESS Reality (2376ms)"
+        - "\U0001F1EE\U0001F1F9 IT #01 • VLESS Reality (547ms)"
+        - "\U0001F1F7\U0001F1FA RU #01 • VLESS TLS [Белый список] (3554ms)"
+        - "\U0001F1F7\U0001F1FA RU #02 • VLESS TLS [Белый список] (448ms)"
+        - "\U0001F1F7\U0001F1FA RU #03 • VLESS Reality [Белый список] (366ms)"
+        - "\U0001F1F7\U0001F1FA RU #04 • VLESS Reality [Белый список] (238ms)"
+        - "\U0001F1EC\U0001F1E7 GB #01 • VLESS Reality (1405ms)"
+        - "\U0001F1EA\U0001F1EA EE #01 • VLESS Reality (411ms)"
+        - "\U0001F1FA\U0001F1F8 US #01 • VLESS Reality (119ms)"
+        - "\U0001F1FA\U0001F1F8 US #02 • VLESS Reality (235ms)"
+        - "\U0001F1FA\U0001F1F8 US #04 • TROJAN TLS (309ms)"
+        - "\U0001F1F2\U0001F1E9 MD #01 • VLESS Reality (427ms)"
+        - "\U0001F1F3\U0001F1F1 NL #01 • VLESS Reality (1091ms)"
+        - "\U0001F1F3\U0001F1F1 NL #02 • VLESS Reality (485ms)"
+        - "\U0001F1F3\U0001F1F1 NL #03 • VLESS Reality (1509ms)"
+        - "\U0001F1F3\U0001F1F1 NL #04 • VLESS Reality (1099ms)"
+        - "\U0001F1E6\U0001F1F9 AT #01 • VLESS Reality (1062ms)"
+        - "\U0001F1F1\U0001F1F9 LT #01 • VLESS Reality (938ms)"
+        - "\U0001F1EB\U0001F1F7 FR #01 • VLESS Reality (686ms)"
+        - "\U0001F1EB\U0001F1F7 FR #02 • VLESS Reality (807ms)"
+        - "\U0001F1EA\U0001F1F8 ES #01 • VLESS Reality (2559ms)"
+        - "\U0001F1EA\U0001F1F8 ES #02 • VLESS Reality (270ms)"
+        - "\U0001F1F5\U0001F1F1 PL #01 • VLESS TLS (428ms)"
+      type: select
+    - interval: 300
+      name: ⚡ АВТО-БАЛАНСИР (Все локации)
+      proxies:
+        - "✨ Для Gemini #01 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "✨ Для Gemini #02 • \U0001F1E9\U0001F1EA [DE] VLESS (284ms)"
+        - "✨ Для Gemini #03 • \U0001F1EB\U0001F1EE [FI] VLESS (1149ms)"
+        - "✨ Для Gemini #04 • \U0001F1F3\U0001F1F1 [NL] VLESS (1509ms)"
+        - "▶️ Для YouTube #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "▶️ Для YouTube #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "▶️ Для YouTube #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "▶️ Для YouTube #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+        - "\U0001F916 Для Claude & ChatGPT #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "\U0001F916 Для Claude & ChatGPT #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "\U0001F916 Для Claude & ChatGPT #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "\U0001F916 Для Claude & ChatGPT #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+        - "\U0001F1E9\U0001F1EA DE #03 • VLESS Reality (284ms)"
+        - "\U0001F1E9\U0001F1EA DE #04 • VLESS Reality (1012ms)"
+        - "\U0001F1EB\U0001F1EE FI #02 • VLESS Reality (795ms)"
+        - "\U0001F1EB\U0001F1EE FI #03 • VLESS Reality (1149ms)"
+        - "\U0001F1EB\U0001F1EE FI #04 • VLESS Reality (2376ms)"
+        - "\U0001F1EE\U0001F1F9 IT #01 • VLESS Reality (547ms)"
+        - "\U0001F1F7\U0001F1FA RU #01 • VLESS TLS [Белый список] (3554ms)"
+        - "\U0001F1F7\U0001F1FA RU #02 • VLESS TLS [Белый список] (448ms)"
+        - "\U0001F1F7\U0001F1FA RU #03 • VLESS Reality [Белый список] (366ms)"
+        - "\U0001F1F7\U0001F1FA RU #04 • VLESS Reality [Белый список] (238ms)"
+        - "\U0001F1EC\U0001F1E7 GB #01 • VLESS Reality (1405ms)"
+        - "\U0001F1EA\U0001F1EA EE #01 • VLESS Reality (411ms)"
+        - "\U0001F1FA\U0001F1F8 US #01 • VLESS Reality (119ms)"
+        - "\U0001F1FA\U0001F1F8 US #02 • VLESS Reality (235ms)"
+        - "\U0001F1FA\U0001F1F8 US #04 • TROJAN TLS (309ms)"
+        - "\U0001F1F2\U0001F1E9 MD #01 • VLESS Reality (427ms)"
+        - "\U0001F1F3\U0001F1F1 NL #01 • VLESS Reality (1091ms)"
+        - "\U0001F1F3\U0001F1F1 NL #02 • VLESS Reality (485ms)"
+        - "\U0001F1F3\U0001F1F1 NL #03 • VLESS Reality (1509ms)"
+        - "\U0001F1F3\U0001F1F1 NL #04 • VLESS Reality (1099ms)"
+        - "\U0001F1E6\U0001F1F9 AT #01 • VLESS Reality (1062ms)"
+        - "\U0001F1F1\U0001F1F9 LT #01 • VLESS Reality (938ms)"
+        - "\U0001F1EB\U0001F1F7 FR #01 • VLESS Reality (686ms)"
+        - "\U0001F1EB\U0001F1F7 FR #02 • VLESS Reality (807ms)"
+        - "\U0001F1EA\U0001F1F8 ES #01 • VLESS Reality (2559ms)"
+        - "\U0001F1EA\U0001F1F8 ES #02 • VLESS Reality (270ms)"
+        - "\U0001F1F5\U0001F1F1 PL #01 • VLESS TLS (428ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: ✨ Для Gemini
+      proxies:
+        - "✨ Для Gemini #01 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "✨ Для Gemini #02 • \U0001F1E9\U0001F1EA [DE] VLESS (284ms)"
+        - "✨ Для Gemini #03 • \U0001F1EB\U0001F1EE [FI] VLESS (1149ms)"
+        - "✨ Для Gemini #04 • \U0001F1F3\U0001F1F1 [NL] VLESS (1509ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: ▶️ Для YouTube
+      proxies:
+        - "▶️ Для YouTube #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "▶️ Для YouTube #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "▶️ Для YouTube #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "▶️ Для YouTube #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F916 Для Claude & ChatGPT"
+      proxies:
+        - "\U0001F916 Для Claude & ChatGPT #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "\U0001F916 Для Claude & ChatGPT #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "\U0001F916 Для Claude & ChatGPT #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "\U0001F916 Для Claude & ChatGPT #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - name: "\U0001F30D ВЫБОР ЛОКАЦИИ"
+      proxies:
+        - "\U0001F1E9\U0001F1EA DE • Авто-выбор"
+        - "\U0001F1EB\U0001F1EE FI • Авто-выбор"
+        - "\U0001F1EE\U0001F1F9 IT • Авто-выбор"
+        - "\U0001F1F7\U0001F1FA RU • Авто-выбор"
+        - "\U0001F1EC\U0001F1E7 GB • Авто-выбор"
+        - "\U0001F1EA\U0001F1EA EE • Авто-выбор"
+        - "\U0001F1FA\U0001F1F8 US • Авто-выбор"
+        - "\U0001F1F2\U0001F1E9 MD • Авто-выбор"
+        - "\U0001F1F3\U0001F1F1 NL • Авто-выбор"
+        - "\U0001F1E6\U0001F1F9 AT • Авто-выбор"
+        - "\U0001F1F1\U0001F1F9 LT • Авто-выбор"
+        - "\U0001F1EB\U0001F1F7 FR • Авто-выбор"
+        - "\U0001F1EA\U0001F1F8 ES • Авто-выбор"
+        - "\U0001F1F5\U0001F1F1 PL • Авто-выбор"
+        - "\U0001F1E9\U0001F1EA DE • Балансир"
+        - "\U0001F1EB\U0001F1EE FI • Балансир"
+        - "\U0001F1EE\U0001F1F9 IT • Балансир"
+        - "\U0001F1F7\U0001F1FA RU • Балансир"
+        - "\U0001F1EC\U0001F1E7 GB • Балансир"
+        - "\U0001F1EA\U0001F1EA EE • Балансир"
+        - "\U0001F1FA\U0001F1F8 US • Балансир"
+        - "\U0001F1F2\U0001F1E9 MD • Балансир"
+        - "\U0001F1F3\U0001F1F1 NL • Балансир"
+        - "\U0001F1E6\U0001F1F9 AT • Балансир"
+        - "\U0001F1F1\U0001F1F9 LT • Балансир"
+        - "\U0001F1EB\U0001F1F7 FR • Балансир"
+        - "\U0001F1EA\U0001F1F8 ES • Балансир"
+        - "\U0001F1F5\U0001F1F1 PL • Балансир"
+      type: select
+    - interval: 300
+      name: "\U0001F1E9\U0001F1EA DE • Авто-выбор"
+      proxies:
+        - "\U0001F1E9\U0001F1EA DE #03 • VLESS Reality (284ms)"
+        - "\U0001F1E9\U0001F1EA DE #04 • VLESS Reality (1012ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1E9\U0001F1EA DE • Балансир"
+      proxies:
+        - "\U0001F1E9\U0001F1EA DE #03 • VLESS Reality (284ms)"
+        - "\U0001F1E9\U0001F1EA DE #04 • VLESS Reality (1012ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EB\U0001F1EE FI • Авто-выбор"
+      proxies:
+        - "\U0001F1EB\U0001F1EE FI #02 • VLESS Reality (795ms)"
+        - "\U0001F1EB\U0001F1EE FI #03 • VLESS Reality (1149ms)"
+        - "\U0001F1EB\U0001F1EE FI #04 • VLESS Reality (2376ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EB\U0001F1EE FI • Балансир"
+      proxies:
+        - "\U0001F1EB\U0001F1EE FI #02 • VLESS Reality (795ms)"
+        - "\U0001F1EB\U0001F1EE FI #03 • VLESS Reality (1149ms)"
+        - "\U0001F1EB\U0001F1EE FI #04 • VLESS Reality (2376ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EE\U0001F1F9 IT • Авто-выбор"
+      proxies:
+        - "\U0001F1EE\U0001F1F9 IT #01 • VLESS Reality (547ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EE\U0001F1F9 IT • Балансир"
+      proxies:
+        - "\U0001F1EE\U0001F1F9 IT #01 • VLESS Reality (547ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F7\U0001F1FA RU • Авто-выбор"
+      proxies:
+        - "\U0001F1F7\U0001F1FA RU #01 • VLESS TLS [Белый список] (3554ms)"
+        - "\U0001F1F7\U0001F1FA RU #02 • VLESS TLS [Белый список] (448ms)"
+        - "\U0001F1F7\U0001F1FA RU #03 • VLESS Reality [Белый список] (366ms)"
+        - "\U0001F1F7\U0001F1FA RU #04 • VLESS Reality [Белый список] (238ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F7\U0001F1FA RU • Балансир"
+      proxies:
+        - "\U0001F1F7\U0001F1FA RU #01 • VLESS TLS [Белый список] (3554ms)"
+        - "\U0001F1F7\U0001F1FA RU #02 • VLESS TLS [Белый список] (448ms)"
+        - "\U0001F1F7\U0001F1FA RU #03 • VLESS Reality [Белый список] (366ms)"
+        - "\U0001F1F7\U0001F1FA RU #04 • VLESS Reality [Белый список] (238ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EC\U0001F1E7 GB • Авто-выбор"
+      proxies:
+        - "\U0001F1EC\U0001F1E7 GB #01 • VLESS Reality (1405ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EC\U0001F1E7 GB • Балансир"
+      proxies:
+        - "\U0001F1EC\U0001F1E7 GB #01 • VLESS Reality (1405ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EA\U0001F1EA EE • Авто-выбор"
+      proxies:
+        - "\U0001F1EA\U0001F1EA EE #01 • VLESS Reality (411ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EA\U0001F1EA EE • Балансир"
+      proxies:
+        - "\U0001F1EA\U0001F1EA EE #01 • VLESS Reality (411ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1FA\U0001F1F8 US • Авто-выбор"
+      proxies:
+        - "\U0001F1FA\U0001F1F8 US #01 • VLESS Reality (119ms)"
+        - "\U0001F1FA\U0001F1F8 US #02 • VLESS Reality (235ms)"
+        - "\U0001F1FA\U0001F1F8 US #04 • TROJAN TLS (309ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1FA\U0001F1F8 US • Балансир"
+      proxies:
+        - "\U0001F1FA\U0001F1F8 US #01 • VLESS Reality (119ms)"
+        - "\U0001F1FA\U0001F1F8 US #02 • VLESS Reality (235ms)"
+        - "\U0001F1FA\U0001F1F8 US #04 • TROJAN TLS (309ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F2\U0001F1E9 MD • Авто-выбор"
+      proxies:
+        - "\U0001F1F2\U0001F1E9 MD #01 • VLESS Reality (427ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F2\U0001F1E9 MD • Балансир"
+      proxies:
+        - "\U0001F1F2\U0001F1E9 MD #01 • VLESS Reality (427ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F3\U0001F1F1 NL • Авто-выбор"
+      proxies:
+        - "\U0001F1F3\U0001F1F1 NL #01 • VLESS Reality (1091ms)"
+        - "\U0001F1F3\U0001F1F1 NL #02 • VLESS Reality (485ms)"
+        - "\U0001F1F3\U0001F1F1 NL #03 • VLESS Reality (1509ms)"
+        - "\U0001F1F3\U0001F1F1 NL #04 • VLESS Reality (1099ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F3\U0001F1F1 NL • Балансир"
+      proxies:
+        - "\U0001F1F3\U0001F1F1 NL #01 • VLESS Reality (1091ms)"
+        - "\U0001F1F3\U0001F1F1 NL #02 • VLESS Reality (485ms)"
+        - "\U0001F1F3\U0001F1F1 NL #03 • VLESS Reality (1509ms)"
+        - "\U0001F1F3\U0001F1F1 NL #04 • VLESS Reality (1099ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1E6\U0001F1F9 AT • Авто-выбор"
+      proxies:
+        - "\U0001F1E6\U0001F1F9 AT #01 • VLESS Reality (1062ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1E6\U0001F1F9 AT • Балансир"
+      proxies:
+        - "\U0001F1E6\U0001F1F9 AT #01 • VLESS Reality (1062ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F1\U0001F1F9 LT • Авто-выбор"
+      proxies:
+        - "\U0001F1F1\U0001F1F9 LT #01 • VLESS Reality (938ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F1\U0001F1F9 LT • Балансир"
+      proxies:
+        - "\U0001F1F1\U0001F1F9 LT #01 • VLESS Reality (938ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EB\U0001F1F7 FR • Авто-выбор"
+      proxies:
+        - "\U0001F1EB\U0001F1F7 FR #01 • VLESS Reality (686ms)"
+        - "\U0001F1EB\U0001F1F7 FR #02 • VLESS Reality (807ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EB\U0001F1F7 FR • Балансир"
+      proxies:
+        - "\U0001F1EB\U0001F1F7 FR #01 • VLESS Reality (686ms)"
+        - "\U0001F1EB\U0001F1F7 FR #02 • VLESS Reality (807ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EA\U0001F1F8 ES • Авто-выбор"
+      proxies:
+        - "\U0001F1EA\U0001F1F8 ES #01 • VLESS Reality (2559ms)"
+        - "\U0001F1EA\U0001F1F8 ES #02 • VLESS Reality (270ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1EA\U0001F1F8 ES • Балансир"
+      proxies:
+        - "\U0001F1EA\U0001F1F8 ES #01 • VLESS Reality (2559ms)"
+        - "\U0001F1EA\U0001F1F8 ES #02 • VLESS Reality (270ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F5\U0001F1F1 PL • Авто-выбор"
+      proxies:
+        - "\U0001F1F5\U0001F1F1 PL #01 • VLESS TLS (428ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F1F5\U0001F1F1 PL • Балансир"
+      proxies:
+        - "\U0001F1F5\U0001F1F1 PL #01 • VLESS TLS (428ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: FALLBACK
+      proxies:
+        - "✨ Для Gemini #01 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "✨ Для Gemini #02 • \U0001F1E9\U0001F1EA [DE] VLESS (284ms)"
+        - "✨ Для Gemini #03 • \U0001F1EB\U0001F1EE [FI] VLESS (1149ms)"
+        - "✨ Для Gemini #04 • \U0001F1F3\U0001F1F1 [NL] VLESS (1509ms)"
+        - "▶️ Для YouTube #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "▶️ Для YouTube #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "▶️ Для YouTube #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "▶️ Для YouTube #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+        - "\U0001F916 Для Claude & ChatGPT #01 • \U0001F1EE\U0001F1F9 [IT] VLESS (547ms)"
+        - "\U0001F916 Для Claude & ChatGPT #02 • \U0001F1EA\U0001F1EA [EE] VLESS (411ms)"
+        - "\U0001F916 Для Claude & ChatGPT #03 • \U0001F1FA\U0001F1F8 [US] VLESS (119ms)"
+        - "\U0001F916 Для Claude & ChatGPT #04 • \U0001F1F2\U0001F1E9 [MD] VLESS (427ms)"
+        - "\U0001F1E9\U0001F1EA DE #03 • VLESS Reality (284ms)"
+        - "\U0001F1E9\U0001F1EA DE #04 • VLESS Reality (1012ms)"
+        - "\U0001F1EB\U0001F1EE FI #02 • VLESS Reality (795ms)"
+        - "\U0001F1EB\U0001F1EE FI #03 • VLESS Reality (1149ms)"
+        - "\U0001F1EB\U0001F1EE FI #04 • VLESS Reality (2376ms)"
+        - "\U0001F1EE\U0001F1F9 IT #01 • VLESS Reality (547ms)"
+        - "\U0001F1F7\U0001F1FA RU #01 • VLESS TLS [Белый список] (3554ms)"
+        - "\U0001F1F7\U0001F1FA RU #02 • VLESS TLS [Белый список] (448ms)"
+        - "\U0001F1F7\U0001F1FA RU #03 • VLESS Reality [Белый список] (366ms)"
+        - "\U0001F1F7\U0001F1FA RU #04 • VLESS Reality [Белый список] (238ms)"
+        - "\U0001F1EC\U0001F1E7 GB #01 • VLESS Reality (1405ms)"
+        - "\U0001F1EA\U0001F1EA EE #01 • VLESS Reality (411ms)"
+        - "\U0001F1FA\U0001F1F8 US #01 • VLESS Reality (119ms)"
+        - "\U0001F1FA\U0001F1F8 US #02 • VLESS Reality (235ms)"
+        - "\U0001F1FA\U0001F1F8 US #04 • TROJAN TLS (309ms)"
+        - "\U0001F1F2\U0001F1E9 MD #01 • VLESS Reality (427ms)"
+        - "\U0001F1F3\U0001F1F1 NL #01 • VLESS Reality (1091ms)"
+        - "\U0001F1F3\U0001F1F1 NL #02 • VLESS Reality (485ms)"
+        - "\U0001F1F3\U0001F1F1 NL #03 • VLESS Reality (1509ms)"
+        - "\U0001F1F3\U0001F1F1 NL #04 • VLESS Reality (1099ms)"
+        - "\U0001F1E6\U0001F1F9 AT #01 • VLESS Reality (1062ms)"
+        - "\U0001F1F1\U0001F1F9 LT #01 • VLESS Reality (938ms)"
+        - "\U0001F1EB\U0001F1F7 FR #01 • VLESS Reality (686ms)"
+        - "\U0001F1EB\U0001F1F7 FR #02 • VLESS Reality (807ms)"
+        - "\U0001F1EA\U0001F1F8 ES #01 • VLESS Reality (2559ms)"
+        - "\U0001F1EA\U0001F1F8 ES #02 • VLESS Reality (270ms)"
+        - "\U0001F1F5\U0001F1F1 PL #01 • VLESS TLS (428ms)"
+      type: fallback
+      url: http://cp.cloudflare.com/generate_204
+rules:
+    - DOMAIN-SUFFIX,googlevideo.com,▶️ Для YouTube
+    - DOMAIN-KEYWORD,youtube,▶️ Для YouTube
+    - DOMAIN-SUFFIX,ytimg.com,▶️ Для YouTube
+    - DOMAIN-KEYWORD,gemini,✨ Для Gemini
+    - DOMAIN-SUFFIX,aistudio.google.com,✨ Для Gemini
+    - "DOMAIN-SUFFIX,openai.com,\U0001F916 Для Claude & ChatGPT"
+    - "DOMAIN-SUFFIX,chatgpt.com,\U0001F916 Для Claude & ChatGPT"
+    - "DOMAIN-SUFFIX,oaistatic.com,\U0001F916 Для Claude & ChatGPT"
+    - "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F916 Для Claude & ChatGPT"
+    - "DOMAIN-SUFFIX,anthropic.com,\U0001F916 Для Claude & ChatGPT"
+    - "DOMAIN-SUFFIX,claude.ai,\U0001F916 Для Claude & ChatGPT"
+    - DOMAIN-SUFFIX,ru,DIRECT
+    - DOMAIN-SUFFIX,su,DIRECT
+    - DOMAIN-SUFFIX,xn--p1ai,DIRECT
+    - DOMAIN-KEYWORD,yandex,DIRECT
+    - DOMAIN-KEYWORD,vk,DIRECT
+    - DOMAIN-KEYWORD,sberbank,DIRECT
+    - DOMAIN-KEYWORD,tbank,DIRECT
+    - DOMAIN-KEYWORD,gosuslugi,DIRECT
+    - DOMAIN-KEYWORD,mos,DIRECT
+    - DOMAIN-KEYWORD,kinopoisk,DIRECT
+    - GEOIP,RU,DIRECT
+    - GEOIP,private,DIRECT,no-resolve
+    - MATCH,PROXY

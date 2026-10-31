@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        ".ru",
+        ".su",
+        ".xn--p1ai",
+        "gosuslugi.ru",
+        "sberbank.ru",
+        "tbank.ru",
+        "vtb.ru",
+        "alfabank.ru",
+        "nalog.gov.ru",
+        "mos.ru",
+        "emiass.info",
+        "ozon.ru",
+        "wildberries.ru",
+        "avito.ru",
+        "yandex.ru",
+        "vk.com",
+        "dzen.ru",
+        "pochta.ru",
+        "rzd.ru"
+      ],
+      "ip_is_private": true
+    }
+  ]
+}

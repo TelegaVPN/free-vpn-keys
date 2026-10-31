@@ -1,0 +1,2 @@
+# {"description":"Проверяйте пинг и обновляйте подписку. Стабильные подписки: @yavpn_robot","name":"@yavpn_robot • Обход белых списков РФ","updated_at":"2026-10-31T18:11:57Z","url":"https://vpnkeys.me/sub/v2raytun/for-russia","website":"https://vpnkeys.me"}
+tg://webproxy?server=web-de3.tgproxy.pink&secret=dde838e5f0a4a9af3ca6cb0c28903a9e80
