@@ -1,0 +1,177 @@
+{
+  "outbounds": [
+    {
+      "default": "Auto-Best",
+      "outbounds": [
+        "Auto-Best",
+        "🛡️ Белые списки РФ",
+        "🛡️ Белый список РФ #01 • VLESS (3753ms)",
+        "🛡️ Белый список РФ #02 • VLESS (1300ms)",
+        "🛡️ Белый список РФ #03 • VMESS (701ms)",
+        "🛡️ Белый список РФ #04 • VLESS (1649ms)"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "300s",
+      "outbounds": [
+        "🛡️ Белый список РФ #01 • VLESS (3753ms)",
+        "🛡️ Белый список РФ #02 • VLESS (1300ms)",
+        "🛡️ Белый список РФ #03 • VMESS (701ms)",
+        "🛡️ Белый список РФ #04 • VLESS (1649ms)"
+      ],
+      "tag": "Auto-Best",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "https://cp.cloudflare.com/generate_204"
+    },
+    {
+      "interval": "300s",
+      "outbounds": [
+        "🛡️ Белый список РФ #01 • VLESS (3753ms)",
+        "🛡️ Белый список РФ #02 • VLESS (1300ms)",
+        "🛡️ Белый список РФ #03 • VMESS (701ms)",
+        "🛡️ Белый список РФ #04 • VLESS (1649ms)"
+      ],
+      "tag": "🛡️ Белые списки РФ",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "https://cp.cloudflare.com/generate_204"
+    },
+    {
+      "server": "a0688bt.us4.h1clayd.click",
+      "server_port": 443,
+      "tag": "🛡️ Белый список РФ #01 • VLESS (3753ms)",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "5-9YzvyXcZ4J5Z4OaVTUbxUU2InvnwT17m0XY-Jse1E",
+          "short_id": "257420d9d430152a"
+        },
+        "server_name": "a0688bt.us4.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "type": "vless",
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da"
+    },
+    {
+      "server": "95.182.121.140",
+      "server_port": 443,
+      "tag": "🛡️ Белый список РФ #02 • VLESS (1300ms)",
+      "tls": {
+        "enabled": true,
+        "server_name": "crt.onecloudstream.com"
+      },
+      "transport": {
+        "headers": {
+          "Host": "crt.onecloudstream.com"
+        },
+        "path": "/vless-ws",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "8dd437e1-5f3f-446e-98fe-aa29b80057fb"
+    },
+    {
+      "alter_id": 0,
+      "security": "auto",
+      "server": "158.160.180.165",
+      "server_port": 24212,
+      "tag": "🛡️ Белый список РФ #03 • VMESS (701ms)",
+      "tls": {
+        "enabled": true
+      },
+      "type": "vmess",
+      "uuid": "c58c1205-b308-416f-8503-c04557abf93d"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "95.128.71.79",
+      "server_port": 10444,
+      "tag": "🛡️ Белый список РФ #04 • VLESS (1649ms)",
+      "tls": {
+        "enabled": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "short_id": "8debcf36f1cc69ff"
+        },
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "type": "vless",
+      "uuid": "8cef7621-c6f0-486e-b51d-59c30c5b0b25"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "protocol": "dns"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geosite": [
+          "category-ru"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "geoip": [
+          "ru"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          ".ru",
+          ".su",
+          ".xn--p1ai",
+          "yandex.ru",
+          "yandex.net",
+          "ya.ru",
+          "vk.com",
+          "vk.ru",
+          "ok.ru",
+          "mail.ru",
+          "sberbank.ru",
+          "sber.ru",
+          "tbank.ru",
+          "tinkoff.ru",
+          "gosuslugi.ru",
+          "mos.ru",
+          "kinopoisk.ru",
+          "dzen.ru"
+        ],
+        "outbound": "direct"
+      }
+    ]
+  }
+}
