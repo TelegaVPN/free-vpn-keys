@@ -1,0 +1,115 @@
+# Subscription by vpnkeys.me (https://vpnkeys.me/sub/clash/for-russia)
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F6E1️ Белый список РФ #01 • VLESS (826ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 4yLVV3M8vaHpurPJ2NvTwhWkhWmsNxPYtQMwEHYQBxc
+        short-id: e6accea441fd1d07
+      server: 5.188.72.82
+      servername: natakeh743.lkfnvflknsdn.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: f4b08bf1-d9bd-4755-aa88-ba922282c608
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F6E1️ Белый список РФ #02 • VLESS (406ms)"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: UbG1bMl5ydXOlyk0kZ8mbFrQaenjoAM3wqcdWWp9TXc
+        short-id: c13b4e7a91d05f28
+      server: 188.225.78.144
+      servername: community-13b.paruscamp.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 72d538ba-af3f-4a7e-9b61-e5b6976d23e3
+    - auth: 2444df7f-4a0c-45bd-9c62-25a7ff8c4dba
+      name: "\U0001F6E1️ Белый список РФ #03 • HYSTERIA2 (1904ms)"
+      password: 2444df7f-4a0c-45bd-9c62-25a7ff8c4dba
+      port: 443
+      server: 193.124.66.172
+      sni: lv.0000000000000.space
+      type: hysteria2
+    - client-fingerprint: firefox
+      name: "\U0001F6E1️ Белый список РФ #04 • VLESS (1951ms)"
+      network: tcp
+      port: 6443
+      reality-opts:
+        public-key: pGFgy_rrpU51v3IFm-dYHOJskMDJO0kCAkIIHJdUSF8
+        short-id: f3e8b2b1
+      server: 151.236.114.141
+      servername: max.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0d4807a7-260b-4d66-a71e-5e793c46c66e
+proxy-groups:
+    - name: PROXY
+      proxies:
+        - "\U0001F6E1️ АВТО-БАЛАНСИР • Для России и Белых списков"
+        - "\U0001F6E1️ Белые списки РФ"
+        - "\U0001F30D ВЫБОР ЛОКАЦИИ"
+        - FALLBACK
+        - "\U0001F6E1️ Белый список РФ #01 • VLESS (826ms)"
+        - "\U0001F6E1️ Белый список РФ #02 • VLESS (406ms)"
+        - "\U0001F6E1️ Белый список РФ #03 • HYSTERIA2 (1904ms)"
+        - "\U0001F6E1️ Белый список РФ #04 • VLESS (1951ms)"
+      type: select
+    - interval: 300
+      name: "\U0001F6E1️ АВТО-БАЛАНСИР • Для России и Белых списков"
+      proxies:
+        - "\U0001F6E1️ Белый список РФ #01 • VLESS (826ms)"
+        - "\U0001F6E1️ Белый список РФ #02 • VLESS (406ms)"
+        - "\U0001F6E1️ Белый список РФ #03 • HYSTERIA2 (1904ms)"
+        - "\U0001F6E1️ Белый список РФ #04 • VLESS (1951ms)"
+      tolerance: 50
+      type: url-test
+      url: http://cp.cloudflare.com/generate_204
+    - interval: 300
+      name: "\U0001F6E1️ Белые списки РФ"
+      proxies:
+        - "\U0001F6E1️ Белый список РФ #01 • VLESS (826ms)"
+        - "\U0001F6E1️ Белый список РФ #02 • VLESS (406ms)"
+        - "\U0001F6E1️ Белый список РФ #03 • HYSTERIA2 (1904ms)"
+        - "\U0001F6E1️ Белый список РФ #04 • VLESS (1951ms)"
+      strategy: consistent-hashing
+      type: load-balance
+      url: http://cp.cloudflare.com/generate_204
+    - name: "\U0001F30D ВЫБОР ЛОКАЦИИ"
+      proxies:
+        - DIRECT
+      type: select
+    - interval: 300
+      name: FALLBACK
+      proxies:
+        - "\U0001F6E1️ Белый список РФ #01 • VLESS (826ms)"
+        - "\U0001F6E1️ Белый список РФ #02 • VLESS (406ms)"
+        - "\U0001F6E1️ Белый список РФ #03 • HYSTERIA2 (1904ms)"
+        - "\U0001F6E1️ Белый список РФ #04 • VLESS (1951ms)"
+      type: fallback
+      url: http://cp.cloudflare.com/generate_204
+rules:
+    - DOMAIN-SUFFIX,ru,DIRECT
+    - DOMAIN-SUFFIX,su,DIRECT
+    - DOMAIN-SUFFIX,xn--p1ai,DIRECT
+    - DOMAIN-KEYWORD,yandex,DIRECT
+    - DOMAIN-KEYWORD,vk,DIRECT
+    - DOMAIN-KEYWORD,sberbank,DIRECT
+    - DOMAIN-KEYWORD,tbank,DIRECT
+    - DOMAIN-KEYWORD,gosuslugi,DIRECT
+    - DOMAIN-KEYWORD,mos,DIRECT
+    - DOMAIN-KEYWORD,kinopoisk,DIRECT
+    - GEOIP,RU,DIRECT
+    - GEOIP,private,DIRECT,no-resolve
+    - MATCH,PROXY
